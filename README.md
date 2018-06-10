@@ -1,2 +1,2 @@
 # gmod-lua-addons
-collection of gmod lua addons I created
+collection of gmod addons/content that I created
