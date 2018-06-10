@@ -1,7 +1,7 @@
 hook.Add("TTTScoreboardColumns", "ttt_scoreboard_mod_columns", function(pnl)
   pnl:AddColumn("Level", function(ply)
     return ply:GetRank()
-  end )
+  end, 150 )
 end )
 hook.Add("TTTScoreboardMenu", "ttt_scoreboard_mod_menu", function(menu)
   local ply = menu.Player
